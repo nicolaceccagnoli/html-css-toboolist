@@ -14,7 +14,7 @@
 */
 
 body{
-    background-color: rgb(251, 251, 251);
+    background-color: rgb(246, 246, 246);
 }
 
 .container {
@@ -83,6 +83,8 @@ button:active{
 
 ul {
     list-style: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 li {
@@ -100,6 +102,26 @@ li div {
     font-size: smaller;
     border-radius: 15px;
     display: inline-block;
+}
+
+.check {
+    color: rgb(106, 204, 139);
+    border: 1px solid rgb(106, 204, 139);
+}
+
+.cross {
+    color:red;  
+    border: 1px solid red;
+}
+
+.check, .cross {
+    margin-right: 10px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
 }
 
 .editorial{
