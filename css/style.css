@@ -47,17 +47,26 @@ img {
     MAIN
 */
 
-#list-container {
+#button-container, #list-container{
     background-color: white;
     padding: 15px 25px;
 }
+#button-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+ #list-container {
+    margin-top: 5px;
+ }
 button {
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
 }
-
+button:active{
+    transform: translateY(4px);
+}
 #task {
     color: white;
     background-color: rgb(73, 174, 247);   
@@ -69,3 +78,4 @@ button {
     background-color: white;
     border: 1px solid rgb(224, 224, 224);
 }
+
