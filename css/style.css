@@ -16,6 +16,11 @@
 body{
     background-color: rgb(251, 251, 251);
 }
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+ }
 /* 
     HEADER
  */
@@ -36,4 +41,31 @@ h1{
 
 img {
     width: 65px;
+}
+
+/* 
+    MAIN
+*/
+
+#list-container {
+    background-color: white;
+    padding: 15px 25px;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#task {
+    color: white;
+    background-color: rgb(73, 174, 247);   
+    border: 1px solid rgb(73, 174, 247);
+}
+
+#section {
+    color: rgb(224, 224, 224);
+    background-color: white;
+    border: 1px solid rgb(224, 224, 224);
 }
