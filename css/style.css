@@ -60,6 +60,7 @@ img {
     margin-top: 5px;
  }
 button {
+    font-size: 14px;
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
@@ -79,3 +80,6 @@ button:active{
     border: 1px solid rgb(224, 224, 224);
 }
 
+ul {
+    list-style: none;
+}
